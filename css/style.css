@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #343a40;
+    padding: 15px 0;
+}
+header nav{
+    width: 35%;
+    margin: auto;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul li{
+}
+header nav ul img{    
+}
+header nav ul a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.featured_img{
+    position: relative;
+    width: 100%;
+}
+.img{
+}
+.img img{
+    width: 100%;
+}
+.content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.content_left{
+    width: 50%;
+}
+.content_left h1{    
+    text-transform: uppercase;
+    font-size: 51px;
+    color: #fff;
+}
+.content_left h1 span{    
+    color: #529252;
+}
+.content_left p{    
+    color: #fff;
+}
+.content_left form{    
+    color: #fff;
+    margin-top: 10px;
+}
+.content_left form input{
+}
+.learnmore{
+}
+.learnmore button{    
+    border: none;
+    border: 1px solid #6dbd6d;
+    background-color: #6dbd6d;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.content_right{
+    width: 40%;
+    background-color: #6DBD6D;
+}
+.content_right h1{   
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    margin-top: 40px;
+}
+.content_right p{    
+    text-transform: capitalize;
+    color: #fff;
+    padding: 5px 20px 20px 20px;
+    text-align: center;
+}
+.content_right form{    
+    text-align: center;
+    margin-bottom: 35px;
+}
+.content_right form input{   
+    width: 82%;
+    margin: 5px 10px;
+    border: none;
+    background-color: transparent;
+    background-color: #fff;
+    border: 1pc solid #fff;
+    text-transform: capitalize;
+    /*! border: navajowhite; */
+}
+.content_right form input[type="submit"]{  
+    border: none;
+    background-color: #529252;
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: 599;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
